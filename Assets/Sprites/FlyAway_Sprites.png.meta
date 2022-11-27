@@ -1,0 +1,483 @@
+fileFormatVersion: 2
+guid: ecefaed67d2920e4f9e4c2a678647661
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2140719152319851860
+    second: FlyAway_Sprites_0
+  - first:
+      213: -7721053490725873100
+    second: FlyAway_Sprites_1
+  - first:
+      213: -3310341399713726495
+    second: FlyAway_Sprites_2
+  - first:
+      213: 577058504422462309
+    second: FlyAway_Sprites_3
+  - first:
+      213: -8940212801872860867
+    second: FlyAway_Sprites_4
+  - first:
+      213: -7002521880043550078
+    second: FlyAway_Sprites_5
+  - first:
+      213: -680879194250953429
+    second: FlyAway_Sprites_6
+  - first:
+      213: -2165661593459766934
+    second: FlyAway_Sprites_7
+  - first:
+      213: -7702032333521971341
+    second: FlyAway_Sprites_8
+  - first:
+      213: 1165050438751562771
+    second: FlyAway_Sprites_9
+  - first:
+      213: -8739791283402770290
+    second: FlyAway_Sprites_10
+  - first:
+      213: -8508244946343102395
+    second: FlyAway_Sprites_11
+  - first:
+      213: 1260931112696453381
+    second: FlyAway_Sprites_12
+  - first:
+      213: -3774708033513534227
+    second: FlyAway_Sprites_13
+  - first:
+      213: -144627746354932036
+    second: FlyAway_Sprites_14
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FlyAway_Sprites_0
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 847
+        width: 251
+        height: 194
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c33fca38a0807744f8c7f7387681981f
+      internalID: -2140719152319851860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlyAway_Sprites_1
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 858
+        width: 249
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95541fde02daa94499206748addbe222
+      internalID: -7721053490725873100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlyAway_Sprites_2
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 639
+        width: 242
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e19d7c961135a2847bea9fe67a6e83f9
+      internalID: -3310341399713726495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlyAway_Sprites_3
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 466
+        width: 241
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce52d04bb993279429e0a0e0d345178e
+      internalID: 577058504422462309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlyAway_Sprites_4
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 200
+        width: 275
+        height: 238
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c8aba52e1cab3042b874040310dbe26
+      internalID: -8940212801872860867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlyAway_Sprites_5
+      rect:
+        serializedVersion: 2
+        x: 1653
+        y: 39
+        width: 107
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbbf59e25341aaa47a17dd0abb3ec3b1
+      internalID: -7002521880043550078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlyAway_Sprites_6
+      rect:
+        serializedVersion: 2
+        x: 1802
+        y: 40
+        width: 105
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1513fcbcbbfa2b34c801ecb093d2a4a2
+      internalID: -680879194250953429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlyAway_Sprites_7
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 35
+        width: 86
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f624232d2bb4e7545a67e5a8b8bec78f
+      internalID: -2165661593459766934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlyAway_Sprites_8
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 675
+        width: 24
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5129ceebb2810cc4bb42ff54f3f5abce
+      internalID: -7702032333521971341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlyAway_Sprites_9
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 657
+        width: 27
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea9882fb82327624f803625e72e47e4d
+      internalID: 1165050438751562771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlyAway_Sprites_10
+      rect:
+        serializedVersion: 2
+        x: 1587
+        y: 638
+        width: 30
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbfcfec18b1ba5644ba5df1c0cf57649
+      internalID: -8739791283402770290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlyAway_Sprites_11
+      rect:
+        serializedVersion: 2
+        x: 1477
+        y: 637
+        width: 25
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db5cb81731024044ebc03f7eb2a3156d
+      internalID: -8508244946343102395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlyAway_Sprites_12
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 14
+        width: 360
+        height: 394
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54014090299131a4fb2503281291b10e
+      internalID: 1260931112696453381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlyAway_Sprites_13
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 8
+        width: 469
+        height: 1015
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16008758ba9de514792c273340fcf97e
+      internalID: -3774708033513534227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlyAway_Sprites_14
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 12
+        width: 441
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaf80befc1171dc4ba907d5703dec02c
+      internalID: -144627746354932036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 0ca332c23f4f8264fbf5822265c0a426
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
