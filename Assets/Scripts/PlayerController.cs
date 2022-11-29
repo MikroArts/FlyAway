@@ -21,12 +21,20 @@ public class PlayerController : MonoBehaviour
     {
         if (moveSpeed == 0)
             return;
+
+        if (FindObjectOfType<GameController>().isStart)
+        {
+            chopper.transform.Translate(0, 0, 0);
+            
+        }
+
         if (Input.GetMouseButton(0))
-        {            
+        {
+            FindObjectOfType<GameController>().isStart = false;
             chopper.transform.Translate(0, moveSpeed * Time.deltaTime, 0);
             GetComponent<Animator>().SetBool("Fly",true);
         }
-        else
+        else if(!FindObjectOfType<GameController>().isStart)
         {
             chopper.transform.Translate(0, -moveSpeed * Time.deltaTime, 0);
             GetComponent<Animator>().SetBool("Fly", false);
@@ -38,7 +46,7 @@ public class PlayerController : MonoBehaviour
     {
         if (col.CompareTag("barrier") || col.CompareTag("building"))
         {
-            GameObject.FindObjectOfType<GameController>().isDead = true;
+            FindObjectOfType<GameController>().isDead = true;
         }        
     }
     void OnTriggerStay2D(Collider2D col)
