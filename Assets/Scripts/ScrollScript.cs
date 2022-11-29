@@ -5,16 +5,11 @@ using UnityEngine;
 public class ScrollScript : MonoBehaviour
 {
     public float scrollSpeed;
-    Vector2 startPosition;
+    [SerializeField]
+    private Renderer bgRenderer;
 
-    void Start()
+    void Update()
     {
-        startPosition = transform.position;
-    }
-
-    void LateUpdate()
-    {
-        float newPos = Mathf.Repeat(Time.time * scrollSpeed, 20);
-        transform.position = startPosition + Vector2.right * newPos;
+        bgRenderer.material.mainTextureOffset += new Vector2(scrollSpeed * Time.deltaTime, 0);
     }
 }

@@ -31,7 +31,7 @@ public class AudioManager : MonoBehaviour
         {
             soundSource.Stop();
         }
-        if (player.GetComponent<PlayerController>().isDead)
+        if (GameObject.FindObjectOfType<GameController>().isDead)
         {
             soundSource.Stop();
         }

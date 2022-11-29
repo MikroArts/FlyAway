@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3694573307142615349}
   - component: {fileID: 3694573307142615346}
   m_Layer: 0
-  m_Name: Bckgrnd_Hills
+  m_Name: Bckgrnd_Tree
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -60,7 +60,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: deb2aecb91cab784daa3dd2d564b6aaa, type: 2}
+  - {fileID: 2100000, guid: deccdae65efa2724abba5a71827b12e3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

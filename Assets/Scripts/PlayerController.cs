@@ -7,17 +7,14 @@ public class PlayerController : MonoBehaviour
     public GameObject chopper;
     public GameObject smoke;
     public float moveSpeed;
-    public bool isDead;
-    void Start()
-    {
-        isDead = false;
-    }
+    
     void FixedUpdate()
     {
         Move();
-        if (isDead)
-        {
-            Destroy(gameObject);            
+        if (FindObjectOfType<GameController>().isDead)
+        {            
+            FindObjectOfType<GameController>().isDead = false;
+            Destroy(gameObject);
         }
     }    
     private void Move()
@@ -40,8 +37,8 @@ public class PlayerController : MonoBehaviour
     void OnTriggerEnter2D(Collider2D col)
     {
         if (col.CompareTag("barrier") || col.CompareTag("building"))
-        {           
-            isDead = true;
+        {
+            GameObject.FindObjectOfType<GameController>().isDead = true;
         }        
     }
     void OnTriggerStay2D(Collider2D col)

@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.lootlocker.lootlockersdk": "https://github.com/LootLocker/unity-sdk.git",
     "com.unity.ads": "2.0.8",
     "com.unity.analytics": "3.3.2",
     "com.unity.collab-proxy": "1.2.16",
@@ -37,5 +38,11 @@
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0"
+  },
+  "lock": {
+    "com.lootlocker.lootlockersdk": {
+      "hash": "8861e95c31756da88c7afc1e7549a2672c3ba597",
+      "revision": "HEAD"
+    }
   }
 }
