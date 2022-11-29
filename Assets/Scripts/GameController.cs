@@ -45,6 +45,7 @@ public class GameController : MonoBehaviour
     public GameObject congratsPanel;
     public InputField nameInputField;
     public GameObject leaderBoardButton;
+    public GameObject instructionsPanel;
 
     [Header("Values")]
     public float spawnValuesMin;
@@ -61,6 +62,7 @@ public class GameController : MonoBehaviour
     public int longestRun;
 
     internal bool isDead;
+    internal bool isStart;
     void Avake()
     {
         UpdateSoundButton(AudioListener.pause);
@@ -70,6 +72,7 @@ public class GameController : MonoBehaviour
     {
         StartCoroutine(SetupRoutine());
         isDead = false;
+        isStart = true;
         player.GetComponent<PlayerController>().moveSpeed = 0;
         GameObject.Find("Cloud").GetComponent<BlockMovement>().moveSpeed = 0;
 
@@ -131,6 +134,7 @@ public class GameController : MonoBehaviour
     }
     public void Play()
     {
+        isStart = true;
         if (GameObject.Find("Cloud"))
         {
             GameObject.Find("Cloud").GetComponent<BlockMovement>().moveSpeed = 10;
@@ -188,6 +192,15 @@ public class GameController : MonoBehaviour
         congratsPanel.SetActive(false);
     }
 
+    public void ShowInstructionsPanel()
+    {
+        instructionsPanel.SetActive(true);
+    }
+    public void CloseInstructionsPanel()
+    {
+        instructionsPanel.SetActive(false);
+    }
+
     public void SaveResult()
     {      
 
@@ -230,7 +243,18 @@ public class GameController : MonoBehaviour
     {
         bool done = false;
         string playerID = PlayerPrefs.GetString("PlayerID");
-        LootLockerSDKManager.SetPlayerName(!string.IsNullOrWhiteSpace(nameInputField.text) ? nameInputField.text : "Guest-" + playerID, (response) =>
+
+        string playerName = "";
+        if (nameInputField.text != "" && !string.IsNullOrEmpty(nameInputField.text))
+        {
+            playerName = nameInputField.text;
+        }
+        else
+        {
+            playerName = "Guest-" + playerID;
+        }
+
+        LootLockerSDKManager.SetPlayerName(playerName, (response) =>
         {
             if (response.success)
             {
